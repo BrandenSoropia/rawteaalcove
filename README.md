@@ -1,3 +1,5 @@
+This will be my fun portfolio/site.
+
 ## Developing
 
 **Requirements:**
@@ -18,7 +20,11 @@
 
 - The app will be served from `localhost:5173`
 
-## Building (Stuff from SvelteKit README)
+### Branch Management
+
+I'm thinking of deploying from master only. So I think I want to do all the development on the `dev` branch, then once enough stuff is ready and polished enough, I'll merge it into `master` and deploy!
+
+### Building (Stuff from SvelteKit README)
 
 To create a production version of your app:
 
@@ -30,7 +36,7 @@ You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
 
-## Deploying to Cloudflare
+### Deploying to Cloudflare
 
 Follow these steps: https://developers.cloudflare.com/pages/framework-guides/deploy-a-svelte-site
 
